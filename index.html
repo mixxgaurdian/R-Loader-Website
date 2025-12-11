@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-loader Key System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">R-loader</div>
+            <nav>
+                <a href="#main" class="nav-item active">Main</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="https://github.com/mixxgaurdian/9Il1i6U8nh6N6lhWMyXhMl8Lcs8QZ7Z5IvpTf65soIGjgMYO8N" class="button">Github </a>
+            </nav>
+        </header>
+
+        <main class="content-box">
+            
+            <section id="main" class="tab-content active-tab">
+                <h1 class="fade-in-up">Verification System</h1>
+                <p class="fade-in-up delay-1">Access R-loader by confirming your details below.</p>
+                
+                <form class="key-form fade-in-up delay-2" id="verificationForm">
+                    
+                    <div class="input-group">
+                        <label for="username">Discord Username</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your Discord Username" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="user_id">Discord User ID</label>
+                        <input type="text" id="user_id" name="user_id" placeholder="Enter your Discord User ID" required>
+                    </div>
+                    
+                    <button type="submit" class="verify-button" id="verifyBtn">
+                        Verify Access
+                        <span class="loading-spinner"></span>
+                    </button>
+
+                    <div class="status-message" id="statusMessage">
+                        Verification Pending...
+                    </div>
+                </form>
+            </section>
+
+            <section id="about" class="tab-content">
+                <h1 class="fade-in-up">About R-loader</h1>
+                <p class="fade-in-up delay-1">R-loader is the a roblox script community that does not support absurd key-systems that why we collect every keyless script we can find and put it into 1 loader in order to make roblox exploiting fun again</p>
+                <ul class="fade-in-up delay-2">
+                    <li>Enter your Discord Username.</li>
+                    <li>Enter your Discord User ID.</li>
+                    <li>Get your Verification key. NO KEY SYSTEM!</li>
+                    <li>Upload Scripts freely in the users scripts tab</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
